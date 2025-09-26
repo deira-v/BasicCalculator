@@ -19,5 +19,23 @@ public class BasicCalculator {
 
         double sum = firstNumber + secondNumber;
         System.out.println("The sum is:" +sum);
+
+        //addition and subtraction operations
+        int operation = 0;
+        double result = switch (operation) {
+            case "add" -> {
+                yield firstNumber + secondNumber;
+            }
+
+            case "subtract" -> {
+                yield firstNumber - secondNumber;
+            }
+
+            //multiple and divide options
+
+        }
+
+
+
     }
 }
